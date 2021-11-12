@@ -7,7 +7,7 @@ public class Array_List1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//add method :
-		ArrayList al=new ArrayList();
+		ArrayList al=new ArrayList();//creating a ArrayList
 		al.add(5);
 		al.add("sara");
 		al.add(true);
@@ -18,7 +18,7 @@ public class Array_List1 {
 		System.out.println(al);
 		ArrayList al2=new ArrayList();
 		al2.add(70);
-		al2.add('c');
+		al2.add('c'); // Adding a Object in ArrayList 
 		al2.addAll(1,al);
 		System.out.println(al2);
 		
