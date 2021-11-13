@@ -9,7 +9,7 @@ public class With_toString_Method {
 		this.mark1=i;
 	}
 	public String toString() {
-		return this.stuname+" "+this.mark1; 
+		return stuname+" "+mark1; 
 		
 	}
 	public static void main(String[] args) {
