@@ -49,22 +49,6 @@ public class KaniMap_2 {
 		}
 		System.out.println(LinkedhashMap);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 	/*sss*/
 	/*
