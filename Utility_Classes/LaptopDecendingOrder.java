@@ -45,7 +45,7 @@ public class LaptopDecendingOrder implements Comparable {
 				return -5;
 			}
 			else if(this.price<v.price){ 
-				return 5;
+				return +5;
 			}
 		
 			else { 
@@ -63,5 +63,5 @@ public class LaptopDecendingOrder implements Comparable {
 /* output :
 [Dell 4 40000, Hp 4 45000, Lenovo 4 50000, Acer 4 30000, Sony 4 10000, Dell 4 40000, Lenovo 4 25000]
 Pricewise decending order priting...
-[Lenovo 4 50000, Hp 4 45000, Dell 4 40000, Dell 4 40000, Acer 4 30000, Lenovo 4 25000, Sony 4 10000]]
+[Lenovo 4 50000, Hp 4 45000, Dell 4 40000, Dell 4 40000, Acer 4 30000, Lenovo 4 25000, Sony 4 10000]
 */
