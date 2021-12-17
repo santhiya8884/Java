@@ -19,15 +19,15 @@ public class WhileDoForLoopEx31 {
 
 	private void forLoop(int x) {
 		// TODO Auto-generated method stub
-		int a=-1,b=1,c;
+		int a=-1,b=1;
 		for(;;) { 
-			c=a+b;
-			if(c>x) { 
+			//c=a+b;
+			if((a+b)>x) { 
 				break;
 			}
-			System.out.println(c);
-			a=b;
-			b=c;
+			System.out.println(a+b);
+			b=a+b;
+			a=b-a;
 		}
 		System.out.println();
 		
@@ -35,30 +35,30 @@ public class WhileDoForLoopEx31 {
 
 	private void doLoop(int x) {
 		// TODO Auto-generated method stub
-		int a=-1,b=1,c;
+		int a=-1,b=1;
 		do { 
-			c=a+b;
-			if(c>x) { 
+			//c=a+b;
+			if((a+b)>x) { 
 				break;
 			}
-			System.out.println(c);
-			a=b;
-			b=c;
+			System.out.println(a+b);
+			b=a+b;
+			a=b-a;
 		}while(true);
 		System.out.println();
 	}
 
 	private void whileLoop(int x) {
 		// TODO Auto-generated method stub
-		int a=-1,b=1,c;
+		int a=-1,b=1;
 		while(true) { 
-			c=a+b;
-			if(c>x) { 
+			//c=a+b;
+			if((a+b)>x) { 
 				break;
 			}
-			System.out.println(c);
-			a=b;
-			b=c;
+			System.out.println(a+b);
+			b=a+b;
+			a=b-a;
 		}
 		System.out.println();
 	}
@@ -85,5 +85,6 @@ Fibonacci Series
 1
 2
 3
+
 
 */
